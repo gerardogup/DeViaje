@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		562244491CCDA59E004A45D6 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562244481CCDA59E004A45D6 /* Datos.swift */; };
+		5622444B1CCDB7F1004A45D6 /* RutaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444A1CCDB7F1004A45D6 /* RutaViewController.swift */; };
+		5622444D1CCDD571004A45D6 /* RutaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */; };
+		5622444F1CCDDA59004A45D6 /* RutasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */; };
 		568F12151CCD0BBD00050A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12141CCD0BBD00050A46 /* AppDelegate.swift */; };
 		568F12171CCD0BBD00050A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12161CCD0BBD00050A46 /* ViewController.swift */; };
 		568F121A1CCD0BBD00050A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568F12181CCD0BBD00050A46 /* Main.storyboard */; };
@@ -20,6 +24,14 @@
 		568F123C1CCD0BBD00050A46 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F123B1CCD0BBD00050A46 /* ExtensionDelegate.swift */; };
 		568F123E1CCD0BBD00050A46 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F123D1CCD0BBD00050A46 /* NotificationController.swift */; };
 		568F12401CCD0BBD00050A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568F123F1CCD0BBD00050A46 /* Assets.xcassets */; };
+		568F12521CCD431A00050A46 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12511CCD431A00050A46 /* MapViewController.swift */; };
+		568F12541CCD6AF400050A46 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12531CCD6AF400050A46 /* QRViewController.swift */; };
+		568F12561CCD6B8C00050A46 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12551CCD6B8C00050A46 /* BrowserViewController.swift */; };
+		568F12581CCD73A600050A46 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12571CCD73A600050A46 /* NavigationViewController.swift */; };
+		56C33F751CCE69A000D92D13 /* LugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C33F741CCE69A000D92D13 /* LugarViewController.swift */; };
+		56C33F7B1CCE9A8400D92D13 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562244481CCDA59E004A45D6 /* Datos.swift */; };
+		56C33F7D1CCED6AF00D92D13 /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C33F7C1CCED6AF00D92D13 /* MapInterfaceController.swift */; };
+		56C33F7F1CCED87500D92D13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C33F7E1CCED87500D92D13 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +77,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		562244481CCDA59E004A45D6 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		5622444A1CCDB7F1004A45D6 /* RutaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutaViewController.swift; sourceTree = "<group>"; };
+		5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutaTableViewCell.swift; sourceTree = "<group>"; };
+		5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutasTableViewController.swift; sourceTree = "<group>"; };
 		568F12111CCD0BBD00050A46 /* DeViaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeViaje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568F12141CCD0BBD00050A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568F12161CCD0BBD00050A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +99,16 @@
 		568F123D1CCD0BBD00050A46 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		568F123F1CCD0BBD00050A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568F12411CCD0BBD00050A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568F12511CCD431A00050A46 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		568F12531CCD6AF400050A46 /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		568F12551CCD6B8C00050A46 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		568F12571CCD73A600050A46 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		56C33F741CCE69A000D92D13 /* LugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LugarViewController.swift; sourceTree = "<group>"; };
+		56C33F761CCE8E6F00D92D13 /* DeViaje.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DeViaje.entitlements; sourceTree = "<group>"; };
+		56C33F771CCE911000D92D13 /* DeViaje WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DeViaje WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		56C33F7A1CCE91EE00D92D13 /* DeViaje WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DeViaje WatchKit App.entitlements"; sourceTree = "<group>"; };
+		56C33F7C1CCED6AF00D92D13 /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
+		56C33F7E1CCED87500D92D13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C33F7F1CCED87500D92D13 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +133,7 @@
 		568F12081CCD0BBD00050A46 = {
 			isa = PBXGroup;
 			children = (
+				56C33F7E1CCED87500D92D13 /* MapKit.framework */,
 				568F12131CCD0BBD00050A46 /* DeViaje */,
 				568F12271CCD0BBD00050A46 /* DeViaje WatchKit App */,
 				568F12361CCD0BBD00050A46 /* DeViaje WatchKit Extension */,
@@ -126,12 +154,22 @@
 		568F12131CCD0BBD00050A46 /* DeViaje */ = {
 			isa = PBXGroup;
 			children = (
+				56C33F761CCE8E6F00D92D13 /* DeViaje.entitlements */,
 				568F12141CCD0BBD00050A46 /* AppDelegate.swift */,
 				568F12161CCD0BBD00050A46 /* ViewController.swift */,
 				568F12181CCD0BBD00050A46 /* Main.storyboard */,
 				568F121B1CCD0BBD00050A46 /* Assets.xcassets */,
 				568F121D1CCD0BBD00050A46 /* LaunchScreen.storyboard */,
 				568F12201CCD0BBD00050A46 /* Info.plist */,
+				568F12511CCD431A00050A46 /* MapViewController.swift */,
+				568F12531CCD6AF400050A46 /* QRViewController.swift */,
+				568F12551CCD6B8C00050A46 /* BrowserViewController.swift */,
+				568F12571CCD73A600050A46 /* NavigationViewController.swift */,
+				562244481CCDA59E004A45D6 /* Datos.swift */,
+				5622444A1CCDB7F1004A45D6 /* RutaViewController.swift */,
+				5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */,
+				5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */,
+				56C33F741CCE69A000D92D13 /* LugarViewController.swift */,
 			);
 			path = DeViaje;
 			sourceTree = "<group>";
@@ -139,6 +177,7 @@
 		568F12271CCD0BBD00050A46 /* DeViaje WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				56C33F7A1CCE91EE00D92D13 /* DeViaje WatchKit App.entitlements */,
 				568F12281CCD0BBD00050A46 /* Interface.storyboard */,
 				568F122B1CCD0BBD00050A46 /* Assets.xcassets */,
 				568F122D1CCD0BBD00050A46 /* Info.plist */,
@@ -149,7 +188,9 @@
 		568F12361CCD0BBD00050A46 /* DeViaje WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				56C33F771CCE911000D92D13 /* DeViaje WatchKit Extension.entitlements */,
 				568F12391CCD0BBD00050A46 /* InterfaceController.swift */,
+				56C33F7C1CCED6AF00D92D13 /* MapInterfaceController.swift */,
 				568F123B1CCD0BBD00050A46 /* ExtensionDelegate.swift */,
 				568F123D1CCD0BBD00050A46 /* NotificationController.swift */,
 				568F123F1CCD0BBD00050A46 /* Assets.xcassets */,
@@ -235,12 +276,33 @@
 				TargetAttributes = {
 					568F12101CCD0BBD00050A46 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 59BP8U82B7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					568F12221CCD0BBD00050A46 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 59BP8U82B7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					568F12311CCD0BBD00050A46 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 59BP8U82B7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -299,8 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568F12581CCD73A600050A46 /* NavigationViewController.swift in Sources */,
+				56C33F751CCE69A000D92D13 /* LugarViewController.swift in Sources */,
 				568F12171CCD0BBD00050A46 /* ViewController.swift in Sources */,
+				5622444D1CCDD571004A45D6 /* RutaTableViewCell.swift in Sources */,
+				568F12521CCD431A00050A46 /* MapViewController.swift in Sources */,
+				568F12561CCD6B8C00050A46 /* BrowserViewController.swift in Sources */,
+				5622444F1CCDDA59004A45D6 /* RutasTableViewController.swift in Sources */,
+				562244491CCDA59E004A45D6 /* Datos.swift in Sources */,
 				568F12151CCD0BBD00050A46 /* AppDelegate.swift in Sources */,
+				5622444B1CCDB7F1004A45D6 /* RutaViewController.swift in Sources */,
+				568F12541CCD6AF400050A46 /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +380,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				568F123E1CCD0BBD00050A46 /* NotificationController.swift in Sources */,
+				56C33F7D1CCED6AF00D92D13 /* MapInterfaceController.swift in Sources */,
+				56C33F7B1CCE9A8400D92D13 /* Datos.swift in Sources */,
 				568F123C1CCD0BBD00050A46 /* ExtensionDelegate.swift in Sources */,
 				568F123A1CCD0BBD00050A46 /* InterfaceController.swift in Sources */,
 			);
@@ -393,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -432,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,10 +516,13 @@
 		568F12451CCD0BBD00050A46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DeViaje WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -457,10 +533,13 @@
 		568F12461CCD0BBD00050A46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DeViaje WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -472,11 +551,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = DeViaje_WatchKit_Extension;
 				INFOPLIST_FILE = "DeViaje WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -488,11 +570,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = DeViaje_WatchKit_Extension;
 				INFOPLIST_FILE = "DeViaje WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -504,10 +589,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DeViaje/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -515,10 +604,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DeViaje/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -541,6 +634,7 @@
 				568F12461CCD0BBD00050A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568F12481CCD0BBD00050A46 /* Build configuration list for PBXNativeTarget "DeViaje WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +643,7 @@
 				568F124A1CCD0BBD00050A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568F124C1CCD0BBD00050A46 /* Build configuration list for PBXNativeTarget "DeViaje" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +652,7 @@
 				568F124E1CCD0BBD00050A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
