@@ -93,6 +93,7 @@ class RutasTableViewController: UITableViewController {
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
             if(DeViaje.rutas.count == 0){
                 self.dismissViewControllerAnimated(true, completion: nil)
+                DeViaje.rutaSeleccionada = nil
             }
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view

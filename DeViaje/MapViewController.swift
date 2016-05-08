@@ -41,6 +41,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             btnCompartir.enabled = false
             //btnLugar.enabled = false
             btnCentrarMapa.hidden = true
+            let annotationsToRemove = mapaRuta.annotations.filter { $0 !== mapaRuta.userLocation }
+            mapaRuta.removeAnnotations( annotationsToRemove )
         }
         if DeViaje.rutas.count > 0 {
             btnRutas.enabled = true
