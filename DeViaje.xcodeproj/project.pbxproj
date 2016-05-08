@@ -11,6 +11,23 @@
 		5622444B1CCDB7F1004A45D6 /* RutaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444A1CCDB7F1004A45D6 /* RutaViewController.swift */; };
 		5622444D1CCDD571004A45D6 /* RutaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */; };
 		5622444F1CCDDA59004A45D6 /* RutasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */; };
+		5666F8221CDE20B800F6621A /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8161CDE20B800F6621A /* ARAnnotation.swift */; };
+		5666F8231CDE20B800F6621A /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8171CDE20B800F6621A /* ARAnnotationView.swift */; };
+		5666F8241CDE20B800F6621A /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8181CDE20B800F6621A /* ARConfiguration.swift */; };
+		5666F8251CDE20B800F6621A /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8191CDE20B800F6621A /* ARTrackingManager.swift */; };
+		5666F8261CDE20B800F6621A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F81A1CDE20B800F6621A /* ARViewController.swift */; };
+		5666F8271CDE20B800F6621A /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F81C1CDE20B800F6621A /* DebugMapViewController.swift */; };
+		5666F8281CDE20B800F6621A /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5666F81E1CDE20B800F6621A /* DebugMapViewController.xib */; };
+		5666F8291CDE20B800F6621A /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5666F81F1CDE20B800F6621A /* hdar_close.png */; };
+		5666F82A1CDE20B800F6621A /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5666F8201CDE20B800F6621A /* hdar_close@2x.png */; };
+		5666F82B1CDE20B800F6621A /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5666F8211CDE20B800F6621A /* hdar_close@3x.png */; };
+		5666F82D1CDE218600F6621A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5666F82C1CDE218600F6621A /* CoreLocation.framework */; };
+		5666F82F1CDE218F00F6621A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5666F82E1CDE218F00F6621A /* CoreMotion.framework */; };
+		5666F8311CDE219B00F6621A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5666F8301CDE219B00F6621A /* MapKit.framework */; };
+		5666F8331CDE3DC000F6621A /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8321CDE3DC000F6621A /* TestAnnotationView.swift */; };
+		5666F8351CDE5B5E00F6621A /* EventoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8341CDE5B5E00F6621A /* EventoTableViewCell.swift */; };
+		5666F8391CDE60B100F6621A /* EventosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666F8381CDE60B100F6621A /* EventosTableViewController.swift */; };
+		5666F83C1CDE70DE00F6621A /* DeViaje.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5666F83A1CDE70DE00F6621A /* DeViaje.xcdatamodeld */; };
 		568F12151CCD0BBD00050A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12141CCD0BBD00050A46 /* AppDelegate.swift */; };
 		568F12171CCD0BBD00050A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F12161CCD0BBD00050A46 /* ViewController.swift */; };
 		568F121A1CCD0BBD00050A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568F12181CCD0BBD00050A46 /* Main.storyboard */; };
@@ -81,6 +98,23 @@
 		5622444A1CCDB7F1004A45D6 /* RutaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutaViewController.swift; sourceTree = "<group>"; };
 		5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutaTableViewCell.swift; sourceTree = "<group>"; };
 		5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutasTableViewController.swift; sourceTree = "<group>"; };
+		5666F8161CDE20B800F6621A /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		5666F8171CDE20B800F6621A /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		5666F8181CDE20B800F6621A /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		5666F8191CDE20B800F6621A /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		5666F81A1CDE20B800F6621A /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5666F81C1CDE20B800F6621A /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		5666F81E1CDE20B800F6621A /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		5666F81F1CDE20B800F6621A /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		5666F8201CDE20B800F6621A /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		5666F8211CDE20B800F6621A /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		5666F82C1CDE218600F6621A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5666F82E1CDE218F00F6621A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5666F8301CDE219B00F6621A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5666F8321CDE3DC000F6621A /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotationView.swift; sourceTree = "<group>"; };
+		5666F8341CDE5B5E00F6621A /* EventoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoTableViewCell.swift; sourceTree = "<group>"; };
+		5666F8381CDE60B100F6621A /* EventosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventosTableViewController.swift; sourceTree = "<group>"; };
+		5666F83B1CDE70DE00F6621A /* DeViaje.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeViaje.xcdatamodel; sourceTree = "<group>"; };
 		568F12111CCD0BBD00050A46 /* DeViaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeViaje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568F12141CCD0BBD00050A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568F12161CCD0BBD00050A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5666F8311CDE219B00F6621A /* MapKit.framework in Frameworks */,
+				5666F82F1CDE218F00F6621A /* CoreMotion.framework in Frameworks */,
+				5666F82D1CDE218600F6621A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +167,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5666F8151CDE20B800F6621A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5666F8161CDE20B800F6621A /* ARAnnotation.swift */,
+				5666F8171CDE20B800F6621A /* ARAnnotationView.swift */,
+				5666F8181CDE20B800F6621A /* ARConfiguration.swift */,
+				5666F8191CDE20B800F6621A /* ARTrackingManager.swift */,
+				5666F81A1CDE20B800F6621A /* ARViewController.swift */,
+				5666F81B1CDE20B800F6621A /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5666F81B1CDE20B800F6621A /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				5666F81C1CDE20B800F6621A /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		5666F81D1CDE20B800F6621A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5666F81E1CDE20B800F6621A /* DebugMapViewController.xib */,
+				5666F81F1CDE20B800F6621A /* hdar_close.png */,
+				5666F8201CDE20B800F6621A /* hdar_close@2x.png */,
+				5666F8211CDE20B800F6621A /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		568F12081CCD0BBD00050A46 = {
 			isa = PBXGroup;
 			children = (
+				5666F8301CDE219B00F6621A /* MapKit.framework */,
+				5666F82E1CDE218F00F6621A /* CoreMotion.framework */,
+				5666F82C1CDE218600F6621A /* CoreLocation.framework */,
 				56C33F7E1CCED87500D92D13 /* MapKit.framework */,
 				568F12131CCD0BBD00050A46 /* DeViaje */,
 				568F12271CCD0BBD00050A46 /* DeViaje WatchKit App */,
@@ -154,10 +226,13 @@
 		568F12131CCD0BBD00050A46 /* DeViaje */ = {
 			isa = PBXGroup;
 			children = (
+				5666F8151CDE20B800F6621A /* Classes */,
+				5666F81D1CDE20B800F6621A /* Resources */,
 				56C33F761CCE8E6F00D92D13 /* DeViaje.entitlements */,
 				568F12141CCD0BBD00050A46 /* AppDelegate.swift */,
 				568F12161CCD0BBD00050A46 /* ViewController.swift */,
 				568F12181CCD0BBD00050A46 /* Main.storyboard */,
+				5666F8341CDE5B5E00F6621A /* EventoTableViewCell.swift */,
 				568F121B1CCD0BBD00050A46 /* Assets.xcassets */,
 				568F121D1CCD0BBD00050A46 /* LaunchScreen.storyboard */,
 				568F12201CCD0BBD00050A46 /* Info.plist */,
@@ -170,6 +245,9 @@
 				5622444C1CCDD571004A45D6 /* RutaTableViewCell.swift */,
 				5622444E1CCDDA59004A45D6 /* RutasTableViewController.swift */,
 				56C33F741CCE69A000D92D13 /* LugarViewController.swift */,
+				5666F8321CDE3DC000F6621A /* TestAnnotationView.swift */,
+				5666F8381CDE60B100F6621A /* EventosTableViewController.swift */,
+				5666F83A1CDE70DE00F6621A /* DeViaje.xcdatamodeld */,
 			);
 			path = DeViaje;
 			sourceTree = "<group>";
@@ -332,8 +410,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				568F121F1CCD0BBD00050A46 /* LaunchScreen.storyboard in Resources */,
+				5666F8291CDE20B800F6621A /* hdar_close.png in Resources */,
+				5666F82B1CDE20B800F6621A /* hdar_close@3x.png in Resources */,
 				568F121C1CCD0BBD00050A46 /* Assets.xcassets in Resources */,
 				568F121A1CCD0BBD00050A46 /* Main.storyboard in Resources */,
+				5666F82A1CDE20B800F6621A /* hdar_close@2x.png in Resources */,
+				5666F8281CDE20B800F6621A /* DebugMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,17 +443,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5666F8271CDE20B800F6621A /* DebugMapViewController.swift in Sources */,
+				5666F8331CDE3DC000F6621A /* TestAnnotationView.swift in Sources */,
 				568F12581CCD73A600050A46 /* NavigationViewController.swift in Sources */,
 				56C33F751CCE69A000D92D13 /* LugarViewController.swift in Sources */,
+				5666F8391CDE60B100F6621A /* EventosTableViewController.swift in Sources */,
 				568F12171CCD0BBD00050A46 /* ViewController.swift in Sources */,
+				5666F8261CDE20B800F6621A /* ARViewController.swift in Sources */,
 				5622444D1CCDD571004A45D6 /* RutaTableViewCell.swift in Sources */,
 				568F12521CCD431A00050A46 /* MapViewController.swift in Sources */,
+				5666F8241CDE20B800F6621A /* ARConfiguration.swift in Sources */,
+				5666F8251CDE20B800F6621A /* ARTrackingManager.swift in Sources */,
 				568F12561CCD6B8C00050A46 /* BrowserViewController.swift in Sources */,
 				5622444F1CCDDA59004A45D6 /* RutasTableViewController.swift in Sources */,
+				5666F8221CDE20B800F6621A /* ARAnnotation.swift in Sources */,
 				562244491CCDA59E004A45D6 /* Datos.swift in Sources */,
+				5666F8231CDE20B800F6621A /* ARAnnotationView.swift in Sources */,
 				568F12151CCD0BBD00050A46 /* AppDelegate.swift in Sources */,
+				5666F83C1CDE70DE00F6621A /* DeViaje.xcdatamodeld in Sources */,
 				5622444B1CCDB7F1004A45D6 /* RutaViewController.swift in Sources */,
 				568F12541CCD6AF400050A46 /* QRViewController.swift in Sources */,
+				5666F8351CDE5B5E00F6621A /* EventoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +561,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "003f8272-b4ec-48a6-9410-0b7e1ff5dcd2";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,6 +600,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "003f8272-b4ec-48a6-9410-0b7e1ff5dcd2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -517,12 +611,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DeViaje WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7337a6e9-c2cd-4e68-8890-8b95c4167f75";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -539,7 +633,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7337a6e9-c2cd-4e68-8890-8b95c4167f75";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -558,7 +652,7 @@
 				INFOPLIST_FILE = "DeViaje WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "274eb120-0d29-47e9-ad79-3221ffbaf958";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -577,7 +671,7 @@
 				INFOPLIST_FILE = "DeViaje WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "274eb120-0d29-47e9-ad79-3221ffbaf958";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -595,7 +689,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "003f8272-b4ec-48a6-9410-0b7e1ff5dcd2";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
@@ -610,7 +704,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DeViaje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "003f8272-b4ec-48a6-9410-0b7e1ff5dcd2";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
@@ -655,6 +749,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5666F83A1CDE70DE00F6621A /* DeViaje.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5666F83B1CDE70DE00F6621A /* DeViaje.xcdatamodel */,
+			);
+			currentVersion = 5666F83B1CDE70DE00F6621A /* DeViaje.xcdatamodel */;
+			path = DeViaje.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 568F12091CCD0BBD00050A46 /* Project object */;
 }

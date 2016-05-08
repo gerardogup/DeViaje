@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
-class RutaViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class RutaViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate, UITextViewDelegate {
+    
+    var contexto: NSManagedObjectContext? = nil
 
     @IBOutlet weak var txtNombre: UITextField!
     @IBOutlet weak var txtDescripcion: UITextView!
@@ -21,32 +24,80 @@ class RutaViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        self.txtDescripcion.layer.borderWidth = 1
-        let gris = UIColor(red: 100.0/255.0, green: 100.0/255.0, blue: 100.0/255.0, alpha: 1.0)
-        self.txtDescripcion.layer.borderColor = gris.CGColor
+        self.contexto = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
         
+        // Do any additional setup after loading the view.
         if !UIImagePickerController.isSourceTypeAvailable(.Camera){
-            btnFoto.hidden = true
-            btnCarrete.hidden = true
+            btnFoto.enabled = false
+            btnCarrete.enabled = false
         }
         miPicker.delegate = self
+        
+        // Index de Campos de texto
+        txtNombre.delegate = self
+        txtNombre.tag = 0
+        
+        txtDescripcion.delegate = self
+        txtDescripcion.tag = 1
+        txtDescripcion.layer.borderColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1.0).CGColor
+        txtDescripcion.layer.borderWidth = 1.0
+        txtDescripcion.layer.cornerRadius = 5
     }
 
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        let nextTag: NSInteger = textField.tag + 1;
+        // Try to find next responder
+        if let nextResponder: UIResponder! = textField.superview!.viewWithTag(nextTag){
+            nextResponder.becomeFirstResponder()
+        }
+        else {
+            // Not found, so remove keyboard.
+            textField.resignFirstResponder()
+        }
+        return false // We do not want UITextField to insert line-breaks.
+    }
+    
+    func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+        if (text == "\n") {
+            textView.resignFirstResponder()
+        }
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func guardarRuta(sender: UIButton) {
-        let ruta: Ruta = Ruta()
-        ruta.nombre = txtNombre.text!
-        ruta.descripcion = txtDescripcion.text!
-        ruta.rutaID = DeViaje.rutas.count + 1
-        ruta.foto = imgFoto.image
-        ruta.lugares = []
-        DeViaje.rutas.append(ruta)
-        DeViaje.rutaSeleccionada = ruta.rutaID
+        if txtNombre.text != nil && txtNombre.text != "" {
+            //guardado en coleccion
+            let ruta: Ruta = Ruta()
+            ruta.nombre = txtNombre.text!
+            ruta.descripcion = txtDescripcion.text!
+            ruta.rutaID = DeViaje.rutas.count + 1
+            ruta.foto = imgFoto.image
+            ruta.lugares = []
+            DeViaje.rutas.append(ruta)
+            
+            //guardado en coredata
+            let nuevaRuta = NSEntityDescription.insertNewObjectForEntityForName("Ruta", inManagedObjectContext: self.contexto!)
+            nuevaRuta.setValue(ruta.rutaID, forKey: "rutaID")
+            nuevaRuta.setValue(txtNombre.text!, forKey: "nombre")
+            nuevaRuta.setValue(txtDescripcion.text!, forKey: "descripcion")
+            if imgFoto.image != nil {
+                nuevaRuta.setValue(UIImagePNGRepresentation(imgFoto.image!), forKey: "foto")
+            }
+            do {
+                try self.contexto?.save()
+            }
+            catch {
+                
+            }
+            
+            DeViaje.rutaSeleccionada = ruta.rutaID
+        }
+        
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 

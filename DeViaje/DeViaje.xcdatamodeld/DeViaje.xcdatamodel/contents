@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Lugar" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pertenece" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ruta" inverseName="tiene" inverseEntity="Ruta" syncable="YES"/>
+    </entity>
+    <entity name="Ruta" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rutaID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="tiene" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lugar" inverseName="pertenece" inverseEntity="Lugar" syncable="YES"/>
+    </entity>
+    <fetchRequest name="getRuta" entity="Ruta" predicateString="rutaID == $rutaID"/>
+    <fetchRequest name="getRutas" entity="Ruta"/>
+    <elements>
+        <element name="Ruta" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Lugar" positionX="160" positionY="-36" width="128" height="133"/>
+    </elements>
+</model>

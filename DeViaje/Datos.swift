@@ -14,6 +14,7 @@ struct DeViaje{
     static var rutaSeleccionada: Int? = nil
     static var urlQR: String? = nil
     static var ubicacionActual: CLLocation? = nil
+    static var eventos: [Evento] = []
 }
 
 class Ruta {
@@ -30,4 +31,11 @@ class Lugar {
     var foto: UIImage? = nil
     var latitud: Double = 0.0
     var longitud: Double = 0.0
+}
+
+class Evento {
+    var fecha: String = ""
+    var hora: String = ""
+    var nombre: String = ""
+    var descripcion: String = ""
 }
