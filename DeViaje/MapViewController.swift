@@ -46,6 +46,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             btnRutas.enabled = true
         } else {
             btnRutas.enabled = false
+            self.title = "Mis Rutas"
         }
         //enviar las rutas al watch
         if DeViaje.rutas.count > 0 {
